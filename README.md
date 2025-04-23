@@ -1,1 +1,1 @@
-# RL_for_tank_game
+# INF581-PROJECT-TANK
