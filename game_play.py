@@ -35,7 +35,7 @@ while running:
         action = 5  # Shoot
 
     # Update the environment
-    state, reward, done, _= env.step(action)
+    state, reward,kill_streak, done, _= env.step(action)
     if done:
         env.reset()
 

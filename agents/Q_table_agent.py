@@ -67,7 +67,7 @@ def scalar_product(vector1, vector2):
     return product
 
 
-def grab_distance_and_kronecker(state):   #takes state as decribed in tan_env.py and returns distance between player and closest enemy
+def grab_distance_and_kronecker(state):   #takes state as decribed in tan_env.py and returns distance between player and closest enemy, and if the player's canon is aligned with the enemy
     Tank_player=state['player']
     x_player,y_player,direction_player,label=Tank_player.info()
     list_enemies=list(state['enemies'])
